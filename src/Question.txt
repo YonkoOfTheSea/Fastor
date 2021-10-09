@@ -1,0 +1,25 @@
+Restaurant Review System
+Build a web application to search restaurants in Bengaluru using Zomato api and add review. This web app
+should have sign up for new users and login for existing users. When a user logs-in, the home page should have restaurant search option. 
+This search option should have ability to search by cuisines, restaurant type and restaurant category.
+
+The search result should display atleast following details per restaurant:
+
+Restaurant name - DOne
+url to zomato page - DOne
+Cuisines type - DOne
+User_rating info - DOne
+Price info - DONE
+if possible add thumbnail as well - DONE
+
+When the user clicks on a restaurant, new page should open with all possible restaurant information. The user
+should have ability to add review for the restaurant and this should be saved in a hosted database (These reviews
+are different from the reviews that are present on Zomato). Whenever someone opens a restaurant page, the
+reviews also should be shown on the restaurant info page.
+Review should contain a rating from 1-5 and description.
+
+The application should have following pages
+Login/Signup Page
+Search Page
+Restaurant page along with existing reviews pulled from hosted database. And also a section to add a review.
+We'll prefer if this can be hosted on any free hosting server instead of localhost.
